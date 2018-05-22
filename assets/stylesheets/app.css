@@ -1,0 +1,10 @@
+.replace-me {
+  animation: party-time 4s linear infinite;
+  border: 30px solid #F9461C;
+  color: #F9461C;
+  font-weight: 700;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+  width: 100%;
+}
