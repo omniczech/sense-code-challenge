@@ -4,7 +4,7 @@ This take-home project is intended to give us an idea of the way you approach yo
 Moreso than deep technical understanding, we will be looking for attention to detail, organization, and thoughtful communication.
 
 ### Installation:
-  - Clone and install from <repository host>
+  - Clone the repo: `git clone git@bitbucket.org:senselabs/take-home-test-web-developer.git`.
   - Install dependencies with either `yarn install` or `npm install` (note, this repository was created with node `v8.9.2`. If you have issues installing, please try upgrading your version of node first.)
   - Start the development server with either `yarn start` or `npm start`. This will reload your changes live as you are working.
 
