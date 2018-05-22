@@ -19,21 +19,18 @@ Moreso than deep technical understanding, we will be looking for attention to de
     - Feedback, `feedback.svg`
   * At the mobile breakpoint, this sidebar should switch to being a fixed menu at the bottom of the page (see attached gif for behavior).
   * The mobile version should have the labels removed with the icons remain centered vertically.
-  * You may use any modern CSS features at your disposal. This project does not need to be widely compatible, but a short description of how you would approach browser compatibility would be appreciated.
+  * The "Feedback" option should be hidden in mobile.
+  * You may use any modern browser features at your disposal. This project does not need to be widely compatible, but a short description of how you would approach browser compatibility would be appreciated.
+  * Our web application needs to know which tab we are currently looking at. For this example, consider the current tab to be a query parameter: `tab` that will be set to a string representing the current tab. For example, a URL like: `https://localhost:8000?tab=meter` should highlight the "meter" icon and label (in Desktop mode).
   * When you have completed the project, please fill out the attached `summary.md` and describe your approach to the project, any sticking points you found, and how you resolved them.
 
-*NOTE:* _It should be possible to accomplish all of this using only html and CSS. That said, if you have extra time and would like to demonstrate some JavaScript skills, feel free to move on to the bonus question below._
-
-##### Bonus:
-  * Our web application needs to know which tab we are currently looking at. For this example, consider the current tab to be a query parameter: `tab` that will be set to a string representing the current tab. For example, a URL like: `https://localhost:8000?tab=meter` should highlight the "meter" icon and label (in Desktop mode).
-
-*NOTE:* _Please focus on the above deliverables first and only complete this bonus question if you have time. We would much rather see a solid showing on the core. _
 
 ### Style guide:
-  * Please see the `/assets` folder for included icons.
+  * Please see the `/assets/icons` folder for included icons.
   * Useful variables:
     - Base Font Size: 16px (Browser Default)
     - Mobile breakpoint: `480px`
+    - Typeface: Open Sans (already included)
     - Sense Red: `#F9461C`
     - Sense Black: `#353535`
     - Sidebar Width / Height (in Mobile): 4rem
