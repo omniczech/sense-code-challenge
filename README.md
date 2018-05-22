@@ -1,7 +1,7 @@
 # Web Developer Take-Home Project | Sense
 This take-home project is intended to give us an idea of the way you approach your work as a web developer. We estimate it should take no longer than two hours. We do understand that you may have limited time, so please do reach out with feedback if this will not fit into your schedule.
 
-Moreso than deep technical understanding, we will be looking for attention to detail, organization, and thoughtful communication. When you have completed the project, please fill out the attached `summary.md` and describe your approach to the project, any sticking points you found, and how you resolved them.
+Moreso than deep technical understanding, we will be looking for attention to detail, organization, and thoughtful communication.
 
 ### Installation:
   - Clone and install from <repository host>
@@ -20,6 +20,7 @@ Moreso than deep technical understanding, we will be looking for attention to de
   * At the mobile breakpoint, this sidebar should switch to being a fixed menu at the bottom of the page (see attached gif for behavior).
   * The mobile version should have the labels removed with the icons remain centered vertically.
   * You may use any modern CSS features at your disposal. This project does not need to be widely compatible, but a short description of how you would approach browser compatibility would be appreciated.
+  * When you have completed the project, please fill out the attached `summary.md` and describe your approach to the project, any sticking points you found, and how you resolved them.
 
 *NOTE:* _It should be possible to accomplish all of this using only html and CSS. That said, if you have extra time and would like to demonstrate some JavaScript skills, feel free to move on to the bonus question below._
 
