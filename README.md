@@ -1,7 +1,7 @@
 # Web Developer Take-Home Project | Sense
 This take-home project is intended to give us an idea of the way you approach your work as a web developer. We estimate it should take no longer than two hours. We do understand that you may have limited time, so please do reach out with feedback if this will not fit into your schedule.
 
-Moreso than deep technical understanding, we will be looking for attention to detail, organization, and thoughtful communication.
+Moreso than deep technical understanding, we will be looking for attention to detail, organization, and thoughtful communication. That said, please refrain from using any third-party libraries (ie. Bootstrap) to complete this task.
 
 ### Installation:
   - Clone the repo: `git clone git@bitbucket.org:senselabs/take-home-test-web-developer.git`.
