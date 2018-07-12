@@ -11,3 +11,54 @@
   animation: party-time 1s linear infinite;
   color: salmon;
 }
+
+nav {
+  background-color: #353535;
+  bottom: 0;
+  color:#fff;
+  font-size: 0.75rem;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 4rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li {
+  margin-top: 15px;
+}
+
+nav li:last-of-type {
+  bottom: 15px;
+  position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    height: 4em;
+    right: 0;
+    top: auto;
+    width: auto;
+  }
+
+  nav li {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    margin-top: 0;
+    width: 19%;
+  }
+
+  nav li.feedback {
+    display: none;
+  }
+
+  nav li span{
+    display: none;
+  }
+}
