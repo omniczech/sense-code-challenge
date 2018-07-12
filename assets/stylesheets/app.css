@@ -33,6 +33,14 @@ nav li {
   margin-top: 15px;
 }
 
+nav li.highlight svg path{
+  fill: #f9461c;
+}
+
+nav li.highlight a {
+  color: #f9461c;
+}
+
 nav li:last-of-type {
   bottom: 15px;
   position: absolute;
@@ -54,11 +62,17 @@ nav li:last-of-type {
     width: 19%;
   }
 
-  nav li.feedback {
+  nav li#feedback {
     display: none;
   }
 
-  nav li span{
+  nav li span {
     display: none;
+  }
+
+  nav li svg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
